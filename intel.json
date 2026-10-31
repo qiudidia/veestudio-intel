@@ -1,7 +1,7 @@
 {
   "version": 1,
   "station": "Veestudio官方情报站",
-  "updatedAt": "2026-10-31T08:30:00Z",
+  "updatedAt": "2026-10-31T00:27:00Z",
   "items": [
     {
       "id": "vs-001",
@@ -23,6 +23,17 @@
       "priority": "normal",
       "publishedAt": "2026-10-31T08:20:00Z",
       "tags": ["同步"]
+    },
+    {
+      "id": "vs-003",
+      "title": "测试",
+      "summary": "用于验证 GitHub 情报源到客户端的实时同步链路。",
+      "content": "这是一条通过 GitHub 仓库发布的测试情报。\n\n如果你能在客户端里看到它，说明从 intel.json 到软件的实时同步已经打通。之后只需在仓库中修改情报内容，客户端会在下一个同步周期自动刷新。",
+      "category": "官方公告",
+      "priority": "normal",
+      "publishedAt": "2026-10-31T00:27:00Z",
+      "tags": ["测试", "实时同步"],
+      "pinned": false
     }
   ]
 }
