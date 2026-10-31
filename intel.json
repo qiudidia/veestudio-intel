@@ -1,7 +1,7 @@
 {
   "version": 1,
   "station": "Veestudio官方情报站",
-  "updatedAt": "2026-10-31T00:27:00Z",
+  "updatedAt": "2026-10-31T00:30:00Z",
   "items": [
     {
       "id": "vs-001",
@@ -10,7 +10,7 @@
       "content": "欢迎来到 Veestudio官方情报站。\n\n在这里你可以第一时间获取版本动态、安全预警和官方公告。",
       "category": "官方公告",
       "priority": "high",
-      "publishedAt": "2026-10-31T08:30:00Z",
+      "publishedAt": "2026-10-31T00:05:00Z",
       "tags": ["公告", "上线"],
       "pinned": true
     },
@@ -21,7 +21,7 @@
       "content": "客户端默认每 60 秒同步一次情报源，发现新内容会自动显示提醒。",
       "category": "开发日志",
       "priority": "normal",
-      "publishedAt": "2026-10-31T08:20:00Z",
+      "publishedAt": "2026-10-31T00:15:00Z",
       "tags": ["同步"]
     },
     {
