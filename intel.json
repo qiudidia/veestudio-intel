@@ -1,8 +1,24 @@
 {
   "version": 1,
   "station": "Veestudio官方情报站",
-  "updatedAt": "2026-10-31T05:08:00Z",
+  "updatedAt": "2026-11-01T10:39:00Z",
   "items": [
+    {
+      "id": "vs-006",
+      "title": "官方公告：服务器配置敲定，实测容量余量充足",
+      "summary": "2 核 Xeon Gold / 2GB 内存 / 10M 带宽 / 40GB 硬盘，¥30 每月，实测可稳跑 20 人 2 房。",
+      "content": "我们准备采购的服务器配置已经确定，各项实测数据均达标：\n\n【CPU】2 核 Xeon Gold，够用。\n每房 4 人实测 CPU 占用约 3% 单核；20 人 / 2 房压力下远没有跑满。\n\n【内存】2GB，够用。\n每房 headless 实测 RSS 约 105MB；主服 + 系统 + Caddy 预计合计低于 1GB，仍有余量。\n\n【带宽】10M 上传 / 下载，够用。\n20 人快照 + 事件流量约 2–3Mbps，距离上限还有很大空间。\n\n【硬盘】40GB，绰绰有余。\n\n【价格】¥30 / 月，价格合适，目前还有优惠。\n\n结论：这套配置足以支撑 20 人 / 2 房的稳定运行，我们按此方案开服。开服时间确定后会第一时间在这里公布。",
+      "category": "官方公告",
+      "priority": "high",
+      "publishedAt": "2026-11-01T10:39:00Z",
+      "tags": [
+        "公告",
+        "服务器",
+        "性能",
+        "开服"
+      ],
+      "pinned": true
+    },
     {
       "id": "vs-001",
       "title": "Veestudio官方情报站正式上线",
@@ -11,7 +27,10 @@
       "category": "官方公告",
       "priority": "high",
       "publishedAt": "2026-10-31T00:05:00Z",
-      "tags": ["公告", "上线"],
+      "tags": [
+        "公告",
+        "上线"
+      ],
       "pinned": true
     },
     {
@@ -22,7 +41,11 @@
       "category": "开发日志",
       "priority": "normal",
       "publishedAt": "2026-10-31T05:08:00Z",
-      "tags": ["开发日志", "武器系统", "问题记录"],
+      "tags": [
+        "开发日志",
+        "武器系统",
+        "问题记录"
+      ],
       "pinned": false
     },
     {
@@ -33,7 +56,11 @@
       "category": "开发随笔",
       "priority": "normal",
       "publishedAt": "2026-10-31T05:04:00Z",
-      "tags": ["Godot", "开源", "随笔"],
+      "tags": [
+        "Godot",
+        "开源",
+        "随笔"
+      ],
       "pinned": false
     },
     {
@@ -44,7 +71,9 @@
       "category": "开发日志",
       "priority": "normal",
       "publishedAt": "2026-10-31T00:15:00Z",
-      "tags": ["同步"]
+      "tags": [
+        "同步"
+      ]
     },
     {
       "id": "vs-003",
@@ -54,7 +83,10 @@
       "category": "官方公告",
       "priority": "normal",
       "publishedAt": "2026-10-31T00:27:00Z",
-      "tags": ["测试", "实时同步"],
+      "tags": [
+        "测试",
+        "实时同步"
+      ],
       "pinned": false
     }
   ]
